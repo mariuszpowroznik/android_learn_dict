@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="notifications"
+        android:summary="Allows notifications shown at bottom of the screen."
+        android:title="Enable notifications" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="merger"
+        android:summary="Allows to overwrite dictionary lists when new version is available discarding any user changes."
+        android:title="Update list while merging" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="repeat"
+        android:summary="All wrong answers during learning are asked again."
+        android:title="Repeat wrong answers" />
+
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/level"
+        android:entryValues="@array/level_values"
+        android:key="level_preference"
+        android:title="Level"
+        android:summary="Select your level."/>
+
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+
+        android:key="about"
+        android:selectable="false"
+        android:persistent="false"
+        android:title="About:"
+        android:summary="The application allows to you learn English language.
+    It does not contain any set of words by default, except the test one.
+    The goal of the application is to learn words or phrases defined by user, so you can simply
+    define your lists of words which you want to learn.
+    \n
+    \nAuthor: Mariusz Powroźnik
+    \nemail: m.powroznik78@gmail.com
+    \n\n\n"
+    />
+
+</PreferenceScreen>
